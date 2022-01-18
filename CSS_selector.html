@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>css</title>
+		<style media="screen">
+			/*
+			p[class] { color: silver;}  <!-p요소이면서 클래스 속성을 가지면---->
+			p[class][id] { text-decoration: underline;} <!--p요소이면서 클래스랑 id 속성 모두 가지면-->
+			*/
+			p[class="foo"] { color: red;}
+			p[id="title"] { text-decoration: underline;}
+		</style>
+	</head>
+	<body>
+		<p class="foo">Hello</p>
+		<p class="bar">CSS</p>
+		<p class="baz" id="title">HTML</p>
+	</body>
+</html>

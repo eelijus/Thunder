@@ -1,0 +1,14 @@
+div {
+	height: 1500px;
+/*	
+	background-color: pink;
+	background-image: url("./스크린샷 2021-07-26 오후 8.48.54.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+*/
+	background: pink url("./스크린샷 2021-07-26 오후 8.48.54.png") no-repeat fixed center top;
+}
+span {
+	background-color: pink;
+}

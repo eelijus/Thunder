@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>table2</title>
+		<style media="screen">
+			th, td { border: 1px solid; width: 50px; height: 50px;}
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption>Monthly savings</caption>
+			<thead>
+				<tr>
+					<th>Month</th>
+					<th>Savings</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>January</td>
+					<td rowspan="2">100won</td>
+				</tr>
+				<tr>
+					<td>February</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="2">Sum</td>
+				</tr>
+			</tfoot>			
+		</table>
+	</body>
+</html>

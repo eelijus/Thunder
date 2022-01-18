@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>box model</title>
+        <style>
+            div{
+                width: 300px;
+                /* margin-left: auto;
+                margin-right: auto; */
+                margin: 50px auto;
+                padding: 0 10px 20px 30px;
+                border: 10px solid black;
+            }
+        </style>
+    </head>
+    <body>
+         <!--마진이 겹칠때 더 큰 값이 작은 값을 허물고 자리를 차지함: margin collapse-->
+        <div style="margin-bottom: 100px;">
+            box model
+        </div>
+        <div>
+            box model
+        </div>
+    </body>
+</html>

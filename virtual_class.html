@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>css</title>
+		<style media="screen">
+			<!--<li>의 첫번째와 마지막 요소에 각각 적용됨-->
+			li:first-child { color: red;}
+			li:last-child { color: blue;}
+			
+			a:link { color: blue;}
+			a:visited { color: gray}
+
+			a:focus { background-color: yellow;} <!--tab키로 포커스를 주면-->
+			a:hover { font-weight: bold;} <!--마우스 커서를 올리면-->
+			a:active { color: violet;} <!--클릭한 순간-->
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>HTML</li> <!--사실상 <li>태그 안에 class="firstchild"라는 속성이 있다고 생각-->
+			<li>CSS</li>
+			<li>JavaScript</li> <!--사실상 <li>태그 안에 class="lastchild"라는 속성이 있다고 생각-->
+		</ul>
+		<a href="https://naver.com/">네이버</a>
+		<a href="https://google.com/">구글</a>
+		<a href="https://daum.net">다음</a>
+	</body>
+</html>
